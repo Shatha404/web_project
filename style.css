@@ -11,7 +11,7 @@
 h1{
     font-size: 50px;
     line-height: 64px;
-    color: #222;
+     color: #2c9caf; 
 }
 
 h2 {
@@ -51,7 +51,7 @@ button.normal{
     font-weight: 600;
     padding: 15px 30px;
     color: #fff;
-    background-color: #088178;
+    background-color: #5ee9e0;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -69,7 +69,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #e0e2e0;
+    background-color: #f8f8f8;
     box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
     height: 60px;
     z-index: 999;
@@ -102,7 +102,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #132e21;
+    color: #2c9caf;
    
 
 }
@@ -124,7 +124,7 @@ body {
 
 /* Home page */
 #hero{
-    background-image: url("assets/Cream\ Minimalist\ Photography\ Presentation.png");
+    background-image: url("assets/blurry\ book.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -141,19 +141,31 @@ body {
 
 #hero h4 {
     padding-bottom: 15px;
+    color: #fafafd;
+
+}
+
+#hero h2 {
+    color: #5ee9e0;
+    padding-bottom: 15px;
 
 }
 
 #hero h1 {
-    color: #465b52;
+    color: #c8d6d8; ;
+}
+
+#hero p {
+    color: #e6edf0;
 }
 
 #hero button{
+    margin-top: 40px;
     background-color: #e0e2e0;
   border: 2px solid #0f3a1d;
   border-radius: 30px;
-  box-shadow: #0d4828 4px 4px 0 0;
-  color: #173b27;
+  box-shadow: #2c9caf 4px 4px 0 0;
+  color: ;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -185,32 +197,65 @@ body {
 
 
 #feature .fe-box{
-    width: 180px;
+    width: 300px;
+    height: 260px;
     text-align: center;
     padding: 1px 15px;
-    box-shadow: 20px 20px 34px rgb(0, 0, 0,0.03);
-    border: 1px solid #cce7d0;
+    box-shadow: 20px 20px 34px rgba(89, 61, 180, 0.03);
+    border: 1px solid #dad9ff;
     border-radius: 4px;
     margin: 15px 0;
     
 }
 
 #feature .fe-box:hover{
-    box-shadow: 10px 10px 54px rgba(29, 163, 125, 0.1);
+    box-shadow: 10px 10px 54px rgba(127, 101, 220, 0.1);
 
 }
 #feature .fe-box img{
-    width: 100%;
-    margin-bottom: 10px;
+    width: 110px;
+    height: 150px;
+   
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
 }
 
-#feature .fe-box h6{
-    padding: 9px 8px 6px 8px;
-    line-height: 1;
-    border-radius: 4px;
-    color: #fafdfc;
-    background-color: #395c4b;
-    margin-bottom: 30px;
+#feature .fe-box p {
+    color: #2c9caf;
+}
+
+
+
+
+
+#feature .fe-box button{
+    
+    height: 30px;
+    width: 130px;
+    margin-top: 0px;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #2c9caf;
+    transition: all 1000ms;
+    font-size: 8px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #2c9caf;
+
+
+
+
+
+
+
+
+    
 }
 
 #product1{
