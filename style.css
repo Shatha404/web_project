@@ -350,6 +350,230 @@ body {
     background: #fff;
     color: #088178;
 }
+<<<<<<< HEAD
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/gifts.jpg");
+    min-width: 1000px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+} 
+#sm-banner span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+#sm-banner .banner-box:hover button{
+    background: #22825e;
+    border: 1px solid #0d4828;
+}
+#sm-banner .banner-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/best-seller.jpg");
+    min-width: 1000px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/indoor-plant.jpg");
+    min-width: 30%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 .banner-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/o.webp");
+    min-width: 30%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 .banner-box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/new.jpg");
+    min-width: 30%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 h2{
+    color: #213825;
+    font-weight: 900;
+    font-size: 22px;
+}
+#banner3 h3{
+    color: #2d624e;
+    font-weight: 800;
+    font-size: 15px;
+}
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #0d4828;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(205, 226, 205);
+}
+#newsletter p span{
+    
+    color: rgb(27, 186, 27);
+}
+#newsletter input{
+  height: 3.125rem;
+  padding: 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border:  1px solid transparent;
+   border-radius: 4px;
+   outline: none;
+   border-top-right-radius: 0%;
+   border-bottom-right-radius: 0%;
+}
+#newsletter button{
+    background-color: whitesmoke;
+    color: #1d6937;
+    white-space: nowrap;
+    border-top-left-radius: 0%;
+   border-bottom-left-radius: 0%;
+}
+#newsletter .form{
+    display: flex;
+    width: 40%;
+    
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logoF{
+    margin-bottom: 80px;
+    width: 300px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+     margin-bottom: 10px;
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #304e40;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 1px solid #304e40;
+    border-radius: 6px;
+}
+footer .install  img{
+    margin: 10px 15px 0;
+}
+footer .follow i:hover,
+footer a:hover{
+    color: #86b998;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    margin-top:80px ;
+=======
 .explore-PNU {
     display: flex;
     justify-content: center;
@@ -456,4 +680,17 @@ body {
     color: #fff;
     font-weight: 500;
     text-decoration: none;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.content {
+    flex-basis: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
