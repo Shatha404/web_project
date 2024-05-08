@@ -23,3 +23,21 @@ cafesContainer.forEach((item, i) => {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    var summaryPopup = document.getElementById("summaryPopup");
+    var aboutLink = document.querySelector("a[href='#']");
+  
+    aboutLink.addEventListener("click", function(event) {
+      event.preventDefault(); // منع انتقال الرابط
+  
+      // عرض المربع النصي
+      summaryPopup.style.display = "block";
+  
+      // إخفاء المربع النصي بعد 3 ثواني
+      setTimeout(function() {
+        summaryPopup.style.display = "none";
+      }, 3000); // بعد 3 ثواني (يمكنك تغيير الفترة الزمنية حسب الحاجة)
+    });
+  });
+  
+

@@ -20,10 +20,11 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("assets/");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("assets/imamu.jpeg");
     background-size: cover;
     background-position: center;
     position: relative;
+    
 
 }
 nav {
@@ -215,3 +216,111 @@ nav img {
     font-size: 14px;
     color: #888888;
 }
+
+.explore-section {
+    position: relative;
+    height: 450px; /* Adjust height as necessary */
+    padding: 20px 60px; /* Increased to give space for buttons */
+    box-sizing: border-box; /* Includes padding in the width calculation */
+}
+.section-title {
+    /* padding: 0 10vw; */
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .items-container {
+    width: calc(100% - 120px); /* Subtract the space taken by buttons */
+    height: 100%;
+    margin: auto; /* This centers the container */
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+
+  
+  .items-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .item-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 20px; /* Keep as is for spacing between cards */
+}
+  
+  .item-image {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+  .item-image img {
+    width: 100%;
+    height: auto;  
+    display: block; 
+}
+  .item-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+  }
+  
+  .brand {
+    text-transform: uppercase;
+  }
+  
+  .description {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+  }
+  
+  .buy {
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .pre-btn {
+    left: 10px;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 10px;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
