@@ -1,12 +1,16 @@
-const express = require('express')
-const { request } = require('http')
+const express = require('express');
+const path = require('path');
+const app = express();
 
+// Serve static files from the "public" directory
+app.use(express.static(path.join(__dirname, 'Frontend')));
 
-const app = express()
+// Serve the main HTML file
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, 'Frontend', 'index.html'));
+});
 
-app.get('/',(request,response)=>{
-    response.send('hello')
-})
-
-
-app.listen(3000, ()=> console.log('Server started to work on port 3000'))
+// Start the server
+app.listen(3000, function() {
+    console.log('App listening on port 3000');
+});
